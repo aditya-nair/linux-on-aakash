@@ -4,11 +4,6 @@ Steps to set up on software side
 
 #. Get an ubuntu 12.04 machine (any other distro will do, but we have tested on this version of ubuntu)
 
-#. Download and install ``Codesourcery cross-compiler`` from this `page <http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/editions/lite-edition/>`_ , find *Download the GNU/Linux Release* in **ARM processor** section, click on link and fill up the form, from link in your email choose the most recent version of toolchain, download the ``IA32 GNU/Linux Installer`` version. 
-
-#. Download the the *.bin* file make it executable and run it from terminal, follow the instructions given on the prompt(dash related) and allow GUI installer to copy toolchain to your preferred location. Update the Codesourcery bin directory in your ``$PATH`` so that bash can find the binaries. 
-
-
 #. You can alternatively install *gcc-arm-linux-gnueabihf* instead of *Codesourcery cross-compiler*, we will use Codesourcery toolchain in rest of this documentation ::
 
 	sudo apt-get install gcc-arm-linux-gnueabihf cpp-arm-linux-gnueabihf
